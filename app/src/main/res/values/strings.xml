@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PokemonPokeAPI</string>
+    <string name="app_name">Pokemon favorite</string>
+    <string name="loading">Carregando</string>
+    <string name="description_pokemon">Charizard voa pelo céu em busca de oponentes poderosos. Ele respira um calor tão grande que derrete qualquer coisa. No entanto, nunca dá um sopro ardente a qualquer oponente mais fraco que ele.</string>
+    <string name="description_text">Descrição:</string>
+    <string name="type">Tipo:</string>
+    <string name="number">Number:</string>
 </resources>

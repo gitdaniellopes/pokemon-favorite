@@ -2,30 +2,25 @@ package br.com.daniellopes.pokemonpokeapi.model;
 
 public class Pokemon {
 
-    private String name;
-    private String url;
+    private final int id;
+    private final String name;
+    private final String curlUrl;
 
-    public Pokemon() {
+    public Pokemon(int id, String name, String curlUrl) {
+        this.id = id;
+        this.name = name;
+        this.curlUrl = curlUrl;
     }
 
-    public Pokemon(String name, String url) {
-        this.name = name;
-        this.url = url;
+    public int getId() {
+        return id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+    public String getCurlUrl() {
+        return curlUrl;
     }
 }
